@@ -85,5 +85,35 @@ request payload
 
 ### PATCH - 
 
-* The PATCH method replces a specific atribute of the target resource with
+* The PATCH method replces a specific atribute of the target resource with 
+
+
+## REST - REpresentational State Transfer 
+
+* REST is a set of architectural constarints, not a protocol or a standard 
+* When a client request is made via a RESTful API, it transfers a representation of the 
+state of the resource to the requester or endpoint. 
+
+* This data is delivered in one of the several formats via HTTP: JSON 
+(Javascript Object Notation), HTML, XLT, Python, PHP, or plain text 
+
+* JSON is the most generally popular file format to use 
+* 
+
+
+## Project Information 
+
+### Product Table 
+
+Product will have attributes - Id , name, quantity and price. The products will be stored in database 
+
+API endpoints planned for the project 
+
+GET  /products  -- Get a list of all the products
+GET  /product/id -- gets the information about the respective product
+POST /product    -- creates a new productbased on the given information form the user and saves it to the database
+PUT /product/id  -- updates the respective product with the given information from the user 
+DELETE /product/id -- deletes the respective product
+
+
 
